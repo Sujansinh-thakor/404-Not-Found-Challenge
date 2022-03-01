@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    background-color: #FFFFFF;
+    font-family: 'Space Mono', monospace;
+}
+header p{
+    margin-top: 25px;
+    margin-left:50px;
+    font-weight: bold;
+}
+div.image img{
+    float: left;
+    width: 539px;
+    height: auto;
+    margin-top:4%;
+    margin-left: 2.5%;
+}
+div.texto{
+    width: 50%;
+    float: right;
+    margin-top:50px;
+    margin-right: 10px;
+}
+div.texto h1{
+    width: 550px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+}
+div.texto p{
+    width: 270px;
+}
+div.texto button{
+    margin-top: 30px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+div.texto button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
